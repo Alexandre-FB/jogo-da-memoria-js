@@ -1,0 +1,13 @@
+.card-game {
+    width: 130px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azul-escuro);
+    border: 4px solid #fff;
+}
+
+.card-game .img-cerebro {
+    width: 50%;
+}
