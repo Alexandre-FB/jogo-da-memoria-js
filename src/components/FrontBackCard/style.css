@@ -2,10 +2,25 @@
     position: relative;
     width: 130px;
     height: 160px;
+    transform-style: preserve-3d;
+    transition: transform 600ms cubic-bezier(0.68, -0.01, 0.19, 1.66);
 }
 
-.front-back-card > .back-card,
-.front-back-card > .front-card {
-    position: absolute;
-    
+.front-back-card.-active{
+    transform: rotateY(180deg);
 }
+
+.front-back-card > .card {
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front-back-card > .card.-front {
+    transform: rotateY(180deg);
+} 
+
+.front-back-card >.card.-front .card-game{
+    background-color: var(--rosa);   
+}
+
+

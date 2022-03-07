@@ -4,14 +4,14 @@ import CardGame from "../CardGame";
 function FrontBackCard(){
     return /*html*/`
         <article class="front-back-card">
-            <div class="back-card">
+            <div class="card -back">
                 ${CardGame()}
             </div>
-            <div class="front-card">
+            <div class="card -front">
                 ${CardGame("javascript", "Logo do Javascript")}
             </div>
         </article>
     `;
 }
 
-export default FrontBackCard;
+export default FrontBackCard; 
