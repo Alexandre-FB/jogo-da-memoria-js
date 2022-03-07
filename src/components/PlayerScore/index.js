@@ -1,9 +1,11 @@
+import './style.css';
+
 function PlayerScore(points){
     return /*html*/ `
-        <ol data-points="${points}">
-            <li>Um</li>
-            <li>Três</li>
-            <li>Dois</li>
+        <ol class="player-score" data-points="${points}">
+            <li class="pointer -a${points}"></li>
+            <li class="pointer -b${points}"></li>
+            <li class="pointer -c${points}"></li>
         </ol>
     `
 }

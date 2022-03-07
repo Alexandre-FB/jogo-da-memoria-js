@@ -1,0 +1,31 @@
+.player-score{
+    width: 50px;
+    height: 20px;
+    background-color: #fff;
+    display: flex;
+    gap: 1px;
+    border: 2px solid var(--rosa);
+    padding: 1px;
+}
+
+.player-score > .pointer {
+    width: 33%;
+    height: 100%;
+    background-color: var(--cinza);
+}
+
+.player-score > .pointer.-a1 {
+    background-color: var(--verde);
+}
+
+.player-score > .pointer.-a2,
+.player-score > .pointer.-b2 {
+    background-color: var(--verde);
+}
+
+.player-score > .pointer.-a3,
+.player-score > .pointer.-b3,
+.player-score > .pointer.-c3 {
+    background-color: var(--verde);
+}
+
