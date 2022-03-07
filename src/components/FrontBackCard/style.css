@@ -1,0 +1,11 @@
+.front-back-card {
+    position: relative;
+    width: 130px;
+    height: 160px;
+}
+
+.front-back-card > .back-card,
+.front-back-card > .front-card {
+    position: absolute;
+    
+}
