@@ -1,9 +1,9 @@
 import "./style.css"; 
 
-function CardGame() {
+function CardGame(imagemDaCarta="brain", altDaImagem="Carta com ícone de cérebro") {
     return /*html*/`
         <article class="card-game">
-            <img class="img-cerebro" src="src/img/brain.png" alt="Imagem cérebro">
+            <img class="card-img" src="src/img/${imagemDaCarta}.png" alt=${altDaImagem}>
         </article>
     `
 }

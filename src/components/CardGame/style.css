@@ -8,6 +8,6 @@
     border: 4px solid #fff;
 }
 
-.card-game .img-cerebro {
+.card-game > .card-img{
     width: 50%;
 }
