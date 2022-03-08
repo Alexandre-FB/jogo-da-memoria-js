@@ -3,12 +3,11 @@ import CardGame from "../CardGame";
 
 
 
-function FrontBackCard(){
+function FrontBackCard(icon, altIcon){
     window.frontBackCard = {};
     window.frontBackCard.handleClick = (event) => {
         const $origin = event.target;
         const $cardFrontBack = $origin.closest('.front-back-card');
-        console.log(event);
         
         $cardFrontBack.classList.toggle('-active');
     }
@@ -19,7 +18,7 @@ function FrontBackCard(){
                 ${CardGame()}
             </div>
             <div class="card -front">
-                ${CardGame("javascript", "Logo do Javascript")}
+                ${CardGame(icon, altIcon)}
             </div>
         </article>
     `;
