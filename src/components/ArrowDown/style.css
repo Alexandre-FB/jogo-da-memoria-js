@@ -1,0 +1,10 @@
+.arrow-down{
+    position: absolute;
+    top: 0.4rem;
+    transition: transform 400ms ease-in-out;
+    transform: translateX(-4.4rem);
+}
+
+.arrow-down[data-currentPlayer="2"]{
+    transform: translateX(4.4rem);
+}
