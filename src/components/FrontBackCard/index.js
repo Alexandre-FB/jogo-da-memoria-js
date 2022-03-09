@@ -4,11 +4,12 @@ import CardGame from "../CardGame";
 
 
 function FrontBackCard(icon, altIcon){
+    let contadorCartasViradas=0;
+
     window.frontBackCard = {};
     window.frontBackCard.handleClick = (event) => {
         const $origin = event.target;
         const $cardFrontBack = $origin.closest('.front-back-card');
-        
         $cardFrontBack.classList.toggle('-active');
     }
    

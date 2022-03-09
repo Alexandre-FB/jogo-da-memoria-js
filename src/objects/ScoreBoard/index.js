@@ -5,6 +5,7 @@ import VsPlayer from '../../components/Vsplayer'
 import ArrowDown from '../../components/ArrowDown';
 
 function ScoreBoard(){
+
     return /*html*/`
         <header class="score-board">
             ${ArrowDown(2)}
